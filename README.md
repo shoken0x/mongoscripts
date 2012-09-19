@@ -2,10 +2,12 @@ MongoDB Scripts for Linux (Mac OS X)
 ============
 
 ## mongoclean.sh
-remove data and log(/tmp/mongodb/*).
+Remove data and log(/tmp/mongodb/*).
 
 ## mongokill.sh
-kill all mongo processes.
+Kill all mongo processes.
 
 ## mongoshard.sh
-set up sharding of mongodb and insert sample data.
+Set up sharding of mongodb and insert sample data.
+
+Please change MONGOHOME in script.

@@ -1,6 +1,5 @@
-mongoscripts
+MongoDB Scripts for Linux (Mac OS X)
 ============
-#MongoDB Scripts for Linux (Mac OS X)
 
 ## mongoclean.sh
 remove data and log(/tmp/mongodb/*).

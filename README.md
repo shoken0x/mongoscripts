@@ -2,7 +2,7 @@ MongoDB Scripts for Linux (Mac OS X)
 ============
 
 ## mongoclean.sh
-Remove data and log(/tmp/mongodb/*).
+Remove data and log( rm -rf /tmp/mongodb/* ).
 
 ## mongokill.sh
 Kill all mongo processes.

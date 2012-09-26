@@ -4,7 +4,5 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
-echo $1
-
-ps axu |grep [m]ongo | grep -v [m]ongokill | awk '{print $2}' |xargs kill $1 
+ps axu |grep [m]ongo | grep -v mongokill | grep -v grep | awk '{print $2}' |xargs kill $1 
 

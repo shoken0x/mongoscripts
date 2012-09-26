@@ -7,6 +7,7 @@
 ## localhost:10011 => shard1(shard0001)  
 ## localhost:10012 => shard2(shard0002)  
 
+## !! MONGOHOMEは環境に合わせて変更してください !!
 MONGOHOME=/usr/local/mongodb-2.2
 TMP=/tmp/mongodb
 
